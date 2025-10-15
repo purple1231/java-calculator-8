@@ -41,8 +41,6 @@ public class StringCaculator {
 
             inp = inp.substring(nextLine+1);
 
-        }else{
-            throw new IllegalArgumentException("커스텀 구분자 형식이 잘못되었습니다. (//구분자\\n숫자...)");
         }
 
         //지금까지 잘라온 문자열 조각들 저장
